@@ -36,18 +36,8 @@ ul {
     border: 1px solid #ccc;
 }
 
-li {
-  border: 1px solid #ccc; 
-  border-radius: 8px; 
-  padding: 20px;
-  grid-column: 2;
-  grid-row: 2fr;
-  position: relative; 
-    padding-bottom: 100px;
-    border: 1px solid #ccc;
-}
 
-nav.navBar {
+.navBar {
   margin-top: auto;
   text-align: right;
   background-color: lightblue;
@@ -60,15 +50,43 @@ article {
 }
 
 li.contacts {
+  text-align: center;
   padding: 20px;
   border: 1px solid #ccc;
-  position:absolute;
   top: 1; /* Place the contacts at the top */
-  right: 0; /* Place the contacts at the right */
+  right: 00; /* Place the contacts at the right */
+  border: 1px solid #ccc; 
+ 
+}
+
+.cards {
+  border-radius: 8px; 
+  padding: 20px;
+  grid-column: 2;
+  grid-row: 2fr;
+  position: relative; 
+    padding-bottom: 100px;
+    border: 1px solid #ccc;
+
 }
 
 p {
   display: grid;
   grid-template-columns: 1fr 1fr;
 
+}
+
+.singlePost {
+  text-align: center;
+  border-radius: 8px; 
+  padding: 20px;
+  grid-column: 2;
+  grid-row: 2fr;
+  position: relative; 
+    border: 1px solid #ccc;
+}
+
+.allPost {
+  gap: 10px;
+  text-align: center;
 }
