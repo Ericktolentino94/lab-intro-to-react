@@ -10,6 +10,12 @@ body,
   width: 100%;
 }
 
+.navBar {
+  padding: 10px;
+  margin-top: auto;
+  text-align: right;
+  background-color: lightblue;
+}
 div {
   gap: 10px;
   margin-top: 50px;
@@ -36,13 +42,6 @@ ul {
     border: 1px solid #ccc;
 }
 
-
-.navBar {
-  margin-top: auto;
-  text-align: right;
-  background-color: lightblue;
-}
-
 article {
   border: 1px solid #ccc;
   border-radius: 8px;
@@ -50,11 +49,11 @@ article {
 }
 
 li.contacts {
+  width: 500px;
   text-align: center;
-  padding: 20px;
   border: 1px solid #ccc;
   top: 1; /* Place the contacts at the top */
-  right: 00; /* Place the contacts at the right */
+  right: 0; /* Place the contacts at the right */
   border: 1px solid #ccc; 
  
 }
@@ -70,9 +69,9 @@ li.contacts {
 
 }
 
-p {
+div.main {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
 
 }
 
@@ -89,4 +88,9 @@ p {
 .allPost {
   gap: 10px;
   text-align: center;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
 }

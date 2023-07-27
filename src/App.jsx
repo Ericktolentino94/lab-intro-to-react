@@ -7,13 +7,13 @@ import Contacts from "./Components/Contacts";
 
 function App() {
   return ( 
-     <>
-  <NavBar />
-  <p>
+    <>
+    <NavBar />
+  <div className = 'main'>
   <UserProfile />
   <Posts />
   <Contacts />
-  </p>
+  </div>
   </>
   )     
 }
